@@ -7,8 +7,9 @@ void main() {
 	printf("input t:");
 	scanf("%s",t);
 
-	printf("s: %s",s);
-	printf("t: %s",t);
+	printf("s: %s\n",s);
+	printf("t: %s\n",t);
 
 	printf("index of t in s: %d\n", strindex(s,t));
+	printf("index of t in s: %d\n", strindex_right(s,t));
 }
